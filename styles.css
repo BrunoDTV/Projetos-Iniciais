@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./img1/background-gif.gif");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.logo-canal {
+    width: 600px;
+    height: 600px;
+}
+
+.logo-twitch {
+    width: 110px;
+    height: 120px;
+}
+
+.logo-wp {
+    width: 125px;
+    height: 125px;
+}
+
+.logo-youtube {
+    width: 140px;
+    height: 150px;
+    padding-top: 18px;
+}
+
+.logo-discord {
+    width: 140px;
+    height: 150px;
+    padding-top: 13px;
+}
+
+.logo-instagram {
+    width: 130px;
+    height: 130px;
+}
+
+.container-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-top: 8px;
+}
+
+.container-logo {
+    padding-bottom: 8px;
+}
+
+.b-twitch {
+    height: 174px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    margin-right: 30px;
+
+}
+
+.b-youtube {
+    height: 174px;
+    width: 150px;
+}
+
+.b-instagram {
+    height: 174px;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.b-whatsapp {
+    height: 174px;
+    width: 150px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.b-discord {
+    height: 174px;
+    width: 150px;
+    margin-left: 30px;
+}
